@@ -1,0 +1,32 @@
+yolo_model:
+
+  config_file:
+    name: kdh_model_v1.cfg
+  weight_file:
+    name: kdh_model_v1_final.weights
+  threshold:
+    value: 0.3
+  detection_classes:
+    names:
+      - OPEN
+      - OPEN_On
+      - CLOSE
+      - CLOSE_On
+      - B1F
+      - B1F_On
+      - 1F
+      - 1F_On
+      - 2F
+      - 2F_On
+      - 3F
+      - 3F_On
+      - 4F
+      - 4F_On
+      - 5F
+      - 5F_On
+      - 6F
+      - 6F_On
+      - UP
+      - UP_On
+      - DOWN
+      - DOWN_On
